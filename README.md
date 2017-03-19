@@ -16,7 +16,8 @@ Project Structure contains 2 main packages:
 2)PIS2 - package that contains class associated with PIS
   2.1) SimulationCharacteristicsPIS2 - contains function for calculation characteristics and steady state probabilities of given PIS
   2.2) SimulationParametersPIS2 - defines parameters of given PIS and is passed to SimulationCharacteristicsPIS2 class
-  2.3) Example usage:   
+  2.3) Example usage:  
+  
       SimulationParametersPIS2 simulationParameters = new SimulationParametersPIS2();       
       simulationParameters.N=150;
       simulationParameters.S=50;
