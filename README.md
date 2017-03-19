@@ -18,28 +18,28 @@ Project Structure contains 2 main packages.
   2.2) SimulationParametersPIS2 - defines parameters of given PIS and is passed to SimulationCharacteristicsPIS2 class.  
   2.3) Example usage(in Java programming language):   
   
-      SimulationParametersPIS2 simulationParameters = new SimulationParametersPIS2();       
-      simulationParameters.N=150;
-      simulationParameters.S=50;
-      simulationParameters.gamma=2;
-      simulationParameters.lyambda=30;
-      simulationParameters.mu1=6;
-      simulationParameters.mu2=3;
-      simulationParameters.sigma1=0.7;
-      simulationParameters.sigma2=0.3;
-      simulationParameters.s=20;
-      simulationParameters.tao=0.5;
-      simulationParameters.v=1;
+      SimulationParametersPIS2 simulationParameters = new SimulationParametersPIS2();         
+      simulationParameters.N=150;  
+      simulationParameters.S=50;  
+      simulationParameters.gamma=2;  
+      simulationParameters.lyambda=30;  
+      simulationParameters.mu1=6;  
+      simulationParameters.mu2=3;  
+      simulationParameters.sigma1=0.7;  
+      simulationParameters.sigma2=0.3;  
+      simulationParameters.s=20;  
+      simulationParameters.tao=0.5;  
+      simulationParameters.v=1;  
       
-      SimulationCharacteristicsPIS2 sc = new SimulationCharacteristicsPIS2();
-      sc.calculateConsolidation(sp, false);
-      sc.calculateGaus(sp, true);
+      SimulationCharacteristicsPIS2 sc = new SimulationCharacteristicsPIS2();  
+      sc.calculateConsolidation(sp, false);  
+      sc.calculateGaus(sp, false);  
       
-      System.out.println(sc.Sav);
-      System.out.println(sc.Gav);
-      System.out.println(sc.RR);
-      System.out.println(sc.Lav);
-      System.out.println(sc.PL);
-      System.out.println(UtilsM.matrixToString(sc.p_m_n))
+      System.out.println(sc.Sav);  
+      System.out.println(sc.Gav);  
+      System.out.println(sc.RR);  
+      System.out.println(sc.Lav);  
+      System.out.println(sc.PL);  
+      System.out.println(UtilsM.matrixToString(sc.p_m_n));  
   
 
