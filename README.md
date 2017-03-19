@@ -1,5 +1,5 @@
 # PIS2
-This project contains Source Codes for Perishable Inventory Systems with Impatient Customers, Single Server, Finite/Infinite Buffer, and (S,s) policy to calculate its characteristics and steady state probabilities with <b>innovative approximate (Consolidation)</b> and exact (Gaus) formula.
+This project contains Source Codes for Perishable Inventory Systems with Impatient Customers, Single Server, Finite/Infinite Buffer, and (S,s) policy to calculate its characteristics and steady state probabilities with innovative approximate Consolidation formulas(<small><i>by Prof. Dr. Agassi Melikov, agassi.melikov@gmail.com</i></small>) and exact (Gaus) formula.
 
 Project Structure contains 2 main packages.
 
