@@ -40,6 +40,9 @@ Project Structure contains 2 main packages.
       System.out.println(sc.RR);  
       System.out.println(sc.Lav);  
       System.out.println(sc.PL);  
-      System.out.println(UtilsM.matrixToString(sc.p_m_n));  
+      System.out.println(UtilsM.matrixToString(sc.p_m_n));     
+      
+     
+ PS: Please also download Apache Commons Math library in order to use BigFraction class. Link: http://commons.apache.org/proper/commons-math/download_math.cgi
   
 
