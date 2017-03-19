@@ -5,9 +5,9 @@ Project Structure contains 2 main packages.
 
 1) <b>com.shahmaliyev.utilsM</b>    
   1.1) classes FormatterMatrixM, FormatterMatrixM are used to convert text data to matrix and vice versa.  
-  1.2) class GausCalculator to solve square linear equations using classical Gaus formula.  
-  1.3) class RandomGenerator to generate exponentially and bernulli distributed random variables.  
-  1.4) class SteadyState to calculate Steady State probabilities from balance equations.  
+  1.2) class GausCalculator is used to solve square linear equations using classical Gaus formula.  
+  1.3) class RandomGenerator is used to generate exponentially and bernulli distributed random variables.  
+  1.4) class SteadyState is used to calculate Steady State probabilities from balance equations.  
   1.5) class MathM contains factorial function to calculate factorial for large integers.  
   1.6) class UtilsM contains different practical functions (working with dates, console, formats etc.).  
   1.7) class NormsCalculator contains functions to calculate different norms (Euclidean Norm, Cosine Similarity, Jaccard Similariy etc.).  
