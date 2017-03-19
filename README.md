@@ -3,7 +3,7 @@ This project contains Source Codes for Perishable Inventory Systems (PIS) with I
 
 Project Structure contains 2 main packages.
 
-1) com.shahmaliyev.utilsM  
+1) <b>com.shahmaliyev.utilsM</b>    
   1.1) classes FormatterMatrixM, FormatterMatrixM to convert String2Matrix and vice versa.  
   1.2) class GausCalculator to solve square linear equations using classical Gaus formula.  
   1.3) class RandomGenerator to generate exponentially and bernulli distributed random variables.  
@@ -13,7 +13,7 @@ Project Structure contains 2 main packages.
   1.7) class NormsCalculator contains functions to calculate different norms (Euclidean Norm, Cosine Similarity, Jaccard Similariy etc.).  
   1.8) class DynamicNumber is used in whole project for number operations it has three modes: double, bigdecimal and bigfraction, we choose required mode depending on speed, division accuracy etc, for example if we need to calculate Gaus formula for matrix with numerical instability(that is dividing very small decimal numbers) then we could use bigdecimal or bigfraction mode in order to prevent precision loss in intermediary divisions.  
   
-2) com.shahmaliyev.simulation.pis2 - package that contains class associated with PIS.  
+2) <b>com.shahmaliyev.simulation.pis2</b> - package that contains class associated with PIS.  
   2.1) SimulationCharacteristicsPIS2 - contains functions for calculation characteristics and steady state probabilities of given PIS.  
   2.2) SimulationParametersPIS2 - defines parameters of given PIS and is passed to SimulationCharacteristicsPIS2 class.  
   2.3) Example usage(in Java programming language):   
