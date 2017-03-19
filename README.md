@@ -1,5 +1,5 @@
 # PIS2
-This project contains Source Codes for Perishable Inventory Systems with Impatient Customers, Single Server, Finite/Infinite Buffer, and (S,s) policy to calculate its characteristics and steady state probabilities with innovative approximate Consolidation formulas(<small><i>by Prof. Dr. Agassi Melikov, agassi.melikov@gmail.com</i></small>) and exact (Gaus) formula.
+This project contains Source Codes for Perishable Inventory Systems (PIS) with Impatient Customers, Single Server, Finite/Infinite Buffer, and (S,s) policy to calculate its characteristics and steady state probabilities with innovative approximate Consolidation formulas (<small><i>by Prof. Dr. Agassi Melikov, agassi.melikov@gmail.com</i></small>) and exact (Gaus) formula.
 
 Project Structure contains 2 main packages.
 
@@ -14,7 +14,7 @@ Project Structure contains 2 main packages.
   1.8) class DynamicNumber is used in whole project for number operations it has three modes: double, bigdecimal and bigfraction, we choose required mode depending on speed, division accuracy etc, for example if we need to calculate Gaus formula for matrix with numerical instability(that is dividing very small decimal numbers) then we could use bigdecimal or bigfraction mode in order to prevent precision loss in intermediary divisions.  
   
 2) com.shahmaliyev.simulation.pis2 - package that contains class associated with PIS.  
-  2.1) SimulationCharacteristicsPIS2 - contains function for calculation characteristics and steady state probabilities of given PIS.  
+  2.1) SimulationCharacteristicsPIS2 - contains functions for calculation characteristics and steady state probabilities of given PIS.  
   2.2) SimulationParametersPIS2 - defines parameters of given PIS and is passed to SimulationCharacteristicsPIS2 class.  
   2.3) Example usage(in Java programming language):   
   
