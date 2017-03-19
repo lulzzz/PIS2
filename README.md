@@ -43,6 +43,6 @@ Project Structure contains 2 main packages.
       System.out.println(UtilsM.matrixToString(sc.p_m_n));     
       
      
- PS: Please also download Apache Commons Math library in order to use BigFraction class. Link: http://commons.apache.org/proper/commons-math/download_math.cgi
+ PS: Please also download Apache Commons Math library in order to use BigFraction class. Version used in project is 3.6.1 located in lib folder. Link for latest version: http://commons.apache.org/proper/commons-math/download_math.cgi
   
 
