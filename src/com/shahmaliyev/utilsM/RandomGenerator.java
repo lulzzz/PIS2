@@ -16,7 +16,7 @@ public class RandomGenerator {
         Random r = new Random();
         return java.lang.Math.log(1.0-r.nextDouble()) / rate * -1.0;
     }
-    public static boolean randomGenerateBernulli(double p){
+    public static boolean randomGenerateBernoulli(double p){
         Random r = new Random();
         return r.nextDouble() <= p;
     }

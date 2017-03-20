@@ -128,7 +128,7 @@ public class UtilsM {
     
     //-------------------------------------Random Generators---------------------------------------------------//
     public static double randomGenerateExponential(double rate){return RandomGenerator.randomGenerateExponential(rate);}
-    public static boolean randomGenerateBernulli(double p){return RandomGenerator.randomGenerateBernulli(p);}
+    public static boolean randomGenerateBernulli(double p){return RandomGenerator.randomGenerateBernoulli(p);}
     
     //--------------------------------------Gaus Method---------------------------------------------------------//
     public static DynamicNumber[] gausMethod(DynamicNumber[][] a,boolean log){return GausCalculator.gausMethod(a, log);}
