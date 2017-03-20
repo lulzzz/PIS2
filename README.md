@@ -11,11 +11,11 @@ Project Structure contains 2 main packages.
   1.5) class MathM contains factorial function to calculate factorial for large integers.  
   1.6) class UtilsM contains different practical functions (working with dates, console, formats etc.).  
   1.7) class NormsCalculator contains functions to calculate different norms (Euclidean Norm, Cosine Similarity, Jaccard Similariy etc.).  
-  1.8) class DynamicNumber is used in whole project for number operations it has three modes: double, bigdecimal and bigfraction, we choose required mode depending on speed, division accuracy etc, for example if we need to calculate Gaus formula for matrix with numerical instability(that is dividing very small decimal numbers) then we could use bigdecimal or bigfraction mode in order to prevent precision loss in intermediary divisions.  
+  1.8) class DynamicNumber is used in whole project for number operations, it has three modes: double, bigdecimal and bigfraction, we choose required mode depending on speed, division accuracy etc, for example if we need to solve linear equations using Gaussian elimination algorith for matrix with numerical instability (that is dividing very small decimal numbers) then we could use bigdecimal or bigfraction mode in order to prevent precision loss in intermediary divisions.  
   
-2) <b>com.shahmaliyev.simulation.pis2</b> - package that contains class associated with PIS.  
+2) <b>com.shahmaliyev.simulation.pis2</b> - package that contains classes associated with PIS.  
   2.1) SimulationCharacteristicsPIS2 - contains functions for calculation characteristics and steady state probabilities of given PIS.  
-  2.2) SimulationParametersPIS2 - defines parameters of given PIS and is passed to SimulationCharacteristicsPIS2 class.  
+  2.2) SimulationParametersPIS2 - defines parameters of given PIS and is passed to SimulationCharacteristicsPIS2 object.  
   2.3) Example usage(in Java programming language):   
   
       SimulationParametersPIS2 simulationParameters = new SimulationParametersPIS2();         
