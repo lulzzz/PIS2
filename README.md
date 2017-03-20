@@ -1,11 +1,11 @@
 # PIS2
-This project contains Source Codes for Perishable Inventory Systems (PIS) with Impatient Customers, Single Server, Finite/Infinite Buffer, and (S,s) policy to calculate its characteristics and steady state probabilities with innovative approximate Merged formula (<small><i>by Prof. Dr. Agassi Melikov, agassi.melikov@gmail.com</i></small>) and exact Balance equations.
+This project contains Source Codes for Perishable Inventory Systems (PIS) with Impatient Customers, Single Server, Finite/Infinite Buffer, and (S,s) policy to calculate its characteristics and steady state probabilities with innovative approximate Merged formula (<small><i>by Prof. Dr. Agassi Melikov, agassi.melikov@gmail.com</i></small>) and also directly solving Balance equations using Gaussian elimination algorithm.
 
 Project Structure contains 2 main packages.
 
 1) <b>com.shahmaliyev.utilsM</b>    
   1.1) classes FormatterMatrixM, FormatterMatrixM are used to convert text data to matrix and vice versa.  
-  1.2) class GausCalculator is used to solve square linear equations using classical Gaus formula.  
+  1.2) class GausCalculator is used to solve square linear equations using classical Gaussian elimination algorithm.  
   1.3) class RandomGenerator is used to generate exponentially and Bernoulli distributed random variables.  
   1.4) class SteadyState is used to calculate Steady State probabilities from balance equations.  
   1.5) class MathM contains factorial function to calculate factorial for large integers.  
