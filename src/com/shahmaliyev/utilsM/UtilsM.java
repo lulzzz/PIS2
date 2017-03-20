@@ -131,7 +131,7 @@ public class UtilsM {
     public static boolean randomGenerateBernulli(double p){return RandomGenerator.randomGenerateBernoulli(p);}
     
     //--------------------------------------Gaus Method---------------------------------------------------------//
-    public static DynamicNumber[] gausMethod(DynamicNumber[][] a,boolean log){return GausCalculator.gausMethod(a, log);}
+    public static DynamicNumber[] gausMethod(DynamicNumber[][] a,boolean log){return GaussianCalculator.gausMethod(a, log);}
     
     //--------------------------------------Steady State---------------------------------------------------------//
     public static DynamicNumber[][] transitionRateToTransitionProbabilityMatrix(DynamicNumber[][] transition_matrix){return SteadyState.transitionRateToTransitionProbabilityMatrix(transition_matrix);}
