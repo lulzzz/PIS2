@@ -14,7 +14,7 @@ Project Structure contains 2 main packages.
   1.8) class DynamicNumber is used in whole project for number operations, it has three modes: double, bigdecimal and bigfraction, we choose required mode depending on speed, division accuracy etc, for example if we need to solve linear equations using Gaussian elimination algorithm for matrix with numerical instability (that is dividing very small decimal numbers) then we could use bigdecimal or bigfraction mode in order to prevent precision loss in intermediary divisions.  
   
 2) <b>com.shahmaliyev.simulation.pis2</b> - package that contains classes associated with PIS.  
-  2.1) SimulationCharacteristicsPIS2 - contains functions for calculation characteristics and steady state probabilities of given PIS.  
+  2.1) SimulationCharacteristicsPIS2 - contains functions for calculation of characteristics and steady state probabilities of given PIS.  
   2.2) SimulationParametersPIS2 - defines parameters of given PIS and is passed to SimulationCharacteristicsPIS2 object.  
   2.3) Example usage(in Java programming language):   
   
@@ -43,6 +43,6 @@ Project Structure contains 2 main packages.
       System.out.println(UtilsM.matrixToString(sc.p_m_n));     
       
      
- PS: Please also download Apache Commons Math library in order to use BigFraction class. Version used in project is 3.6.1 located in lib folder. Link for latest version: http://commons.apache.org/proper/commons-math/download_math.cgi
+ PS: Please also download Apache Commons Math library in order to use BigFraction class. Version used in project is 3.6.1 located in lib folder. Link for the latest version: http://commons.apache.org/proper/commons-math/download_math.cgi
   
 
