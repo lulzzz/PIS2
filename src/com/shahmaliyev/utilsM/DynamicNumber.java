@@ -332,4 +332,12 @@ public final class DynamicNumber{
     private double powDouble(BigInteger a){return Math.pow(numberDouble, a.doubleValue());}
     private double powDouble(DynamicNumber a){return Math.pow(numberDouble, a.numberDouble);}
     
+    public static BigInteger factorial(int n) {
+        BigInteger factorial = BigInteger.valueOf(1);
+        for (int i = 1; i <= n; i++) {
+            factorial = factorial.multiply(BigInteger.valueOf(i));
+        }
+        return factorial;
+    } 
+    
 }
